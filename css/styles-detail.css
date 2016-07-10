@@ -1,0 +1,127 @@
+body{
+    font: normal 12px/1.5 Arial,Helvetica,san-serif;
+    color: #666;
+    background: url('../images/sm_body_bg.gif') center bottom no-repeat #fcf6e6 !important;
+}
+
+.sm-body-wrap{
+	padding-bottom:98px;
+	position: relative;
+	margin: 
+}
+.sm-detail-head{
+	height: 421px;
+    padding: 20px;
+    border: 2px dashed #ffca3c;
+    background: url('../images/sm.detail.head.bg.gif') 0 bottom repeat-x #fdfadc;
+}
+.title-dt{
+	margin-bottom:15px;
+	width:100%;
+}
+.sm-detail-name{
+	float: left;
+    color: #333;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: normal;
+    margin:0px;
+}
+#avatar-st{
+	width: 100%;
+    height: 285px;
+    background: #fff;
+    padding: 3px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.description{
+    position:relative;
+    border-radius:4px;
+    border:2px solid #ffca3c;
+    clear:both;
+    padding:10px!important;
+    background: #fffae7;
+}
+
+.mgtop50{
+    margin-top:50px;
+    padding-right:0px;
+}
+.arrow_box {
+    position: relative;
+    border: 2px solid #ffca3c;
+}
+.arrow_box:after, .arrow_box:before {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.arrow_box:after {
+    border-color: rgba(0, 0, 0, 0);
+    border-left-color: #;
+    border-width: 5px;
+    margin-top: -5px;
+}
+.arrow_box:before {
+    border-color: rgba(255, 202, 60, 0);
+    border-left-color: #ffca3c;
+    border-width: 8px;
+    margin-top: -50px;
+}
+.painter{
+    background:url('../images/sm.detail.png') no-repeat 0px -546px;
+    position:relative;
+    width:100%;
+    height:40px;
+}
+.mgtop50 img{
+    width:60px;
+    height:60px;
+    position:absolute;
+    top:-20px;
+    right:13px;
+    border:1px solid #edaf5f;
+}
+.sm-chapter-list{
+    margin-top:20px;
+    position:relative;
+    background:#fffcf3;
+    border: 1px solid #ffca3c;
+    padding:0px;
+}
+.sm-chapter-list-tit{
+    padding: 21px 20px 7px 20px;
+    background: url(../images/sm.detail.head.bg.gif) repeat-x;
+}
+.sm-chapter-list-tit h4{
+    color:#e58d1a;
+}
+.sm-chapter-list-top{
+    height:39px;
+    background:url('../images/sm.detail.head2.bg.gif') repeat-x;
+}
+.sm-chapter-list-wrap{
+    width:100%;
+    position:relative;
+    padding:0!important;
+}
+.sm-chapter-list-wrap ul{
+    margin:20px;
+    padding:0px;
+    position:relative;
+    list-style-type:none;
+}
+.sm-chapter-list-wrap ul li{
+    float:left;
+    position:relative;
+    width:150px;
+    height:36px;
+}
