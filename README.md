@@ -1,1 +1,1 @@
-"Story love sex abc" 
+"Story love" 
